@@ -1,0 +1,33 @@
+<!-- Magic 8 Ball
+
+As a user I can enter a question on a web page and magically get an answer to my question.
+
+View
+
+Create an input tag to accept questions from the user. Give it an id of "question".
+Create a button tag to send the question to the Javascript code. Give it an id of "submit".
+Create a p tag to hold the answer the Magic 8 Ball sends back. Give it an id of "answer".
+Controller
+
+Create a click listener for the button tag, which opens up an alert.
+Make the click listener show what is in the input field. Use the jQuery function .val().
+Make the click listener show what's in the input field in the paragraph section. Use the jQuery function .text().
+Clear the input field after the button is clicked.
+Reuse your code from the previous Magic 8 Ball challenge to give a random answer. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script type="text/javascript" src="jquery-3.2.1.min.js">
+		</script>
+		<script type="text/javascript" src="8ball.js">
+		</script>
+		<title>Jquery Exercise</title>
+	</head>
+	<body>
+		<input id="question" type="text" name="" value="">
+		<button id="submit" type="button" name="button">Submit</button>
+		<p id="answer"></p>
+	</body>
+</html>
